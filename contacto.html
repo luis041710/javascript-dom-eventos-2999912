@@ -45,6 +45,7 @@
                     type="text" 
                     placeholder="Tu Nombre" 
                     id="nombre"
+                    name="userName"
                 >
         <form class="formulario">
             <div class="campo">
@@ -54,6 +55,7 @@
                     type="text" 
                     placeholder="Tu telefónico" 
                     id="nombre"
+                    name="userPhone"
                 >
             </div>
             <div class="campo">
@@ -63,6 +65,7 @@
                     type="email" 
                     placeholder="Tu E-mail" 
                     id="email"
+                    name="userEmail"
                 >
             </div>
             <div class="campo">
@@ -70,13 +73,14 @@
                 <textarea 
                     class="campo__field campo__field--textarea user-message"
                     id="mensaje"
+                    name="userMessage"
                 ></textarea>
             </div>
 
             <!-- <div class="campo">
                 <input type="submit" value="Enviar" class="boton boton--primario">
             </div> -->
-            <button class="btnPrint boton boton--primario">Enviar</button>
+            <button type="submit" class="btnPrint boton boton--primario">Enviar</button>
 
         </form>
     </main>
